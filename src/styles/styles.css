@@ -1,0 +1,59 @@
+.cabecalho {
+  display: block;
+    width: 100%;
+    background-color: #d3d3d3;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.cabecalho > div > section {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.cabecalho > div > section > img {
+    width: 200px;
+}
+
+#button{
+  font-size: 20px;
+  color: orangered;
+  border-radius: 40px;
+  background-color: aliceblue;
+  border: solid orangered 4px;
+  background-color: white;
+  font-weight: bold;
+}
+
+#link{
+  text-decoration: none;
+  color: orangered ;
+}
+
+
+.container {
+    width: 80%;
+    /* padding: 25px; */
+    margin: auto;
+}
+
+main{
+  background-color:#A9A9A9 ;
+} 
+
+main > div > section{
+  background-color:#808080;
+}
+
+main > div > section > img{
+  display: flex;
+  width: 80% ;
+  justify-content: space-between;
+  
+}
+
+main > div > section{
+  display: flex;
+  justify-content: center;
+}
