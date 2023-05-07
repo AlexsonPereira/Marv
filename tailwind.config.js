@@ -2,16 +2,16 @@
 module.exports = {
   content: ['*.{html,js}'],
   theme: {
-    screen: {
-      '2xlMax': { max: '1535px' },
-
-      xlMax: { max: '1279px' },
-
-      lgMax: { max: '1023px' },
-
-      mdMax: { max: '767px' },
-
-      smMax: { max: '639px' }
+    screens: {
+      '2xl': { max: '1535px' },
+      xl: { max: '1279px' },
+      lg: { max: '1024px' },
+      md: { max: '768px' },
+      sm: { max: '425px' }
+    },
+    container: {
+      center: true,
+      padding: '2rem'
     },
     extend: {
       backgroundImage: {
