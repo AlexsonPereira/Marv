@@ -718,7 +718,7 @@ video {
 }
 
 .bg-main-homepage {
-  background-image: url('/src/assets/1682965806790.jpg');
+  background-image: url('/src/assets/1683803188121.jpg');
 }
 
 .bg-cover {
@@ -823,6 +823,10 @@ video {
 }
 
 @media (max-width: 425px) {
+  .sm\:absolute {
+    position: absolute;
+  }
+
   .sm\:m-4 {
     margin: 1rem;
   }
@@ -859,8 +863,20 @@ video {
     overflow-x: auto;
   }
 
+  .sm\:border-x-black {
+    --tw-border-opacity: 1;
+    border-left-color: rgb(0 0 0 / var(--tw-border-opacity));
+    border-right-color: rgb(0 0 0 / var(--tw-border-opacity));
+  }
+
   .sm\:py-6 {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+  }
+
+  .sm\:shadow-md {
+    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 }

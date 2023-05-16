@@ -15,7 +15,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'main-homepage': "url('/src/assets/1682965806790.jpg')"
+        'main-homepage': "url('/src/assets/1683803188121.jpg')"
       }
     }
   },
